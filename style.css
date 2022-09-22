@@ -1,24 +1,67 @@
-header{
-    border-bottom: 1px solid black;
-  }
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  border-bottom: 1px solid black;
+
+}
+
+h1, h3 {
+
+  text-align: center;
+}
+
+aside:active{
+
+  background-color: rgb(1, 8, 8);
+  color:  white;
+}
+
+button:active{
+
+  background-color: rgb(246, 250, 250);
+  color:  rgb(10, 1, 1);
+}
+
+
+
+
+main {
+  width: 800px;
+ margin: auto;
   
-  main{
-    width: 800px;
-  }
+}
+
+aside {
+  width: 180px;
+  border: 1px solid black;
+  text-align: center;
+  position: fixed;
+  right: 0px;
+  bottom: 300px;
+
+
+}
+
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
   
-  aside{
-    width: 180px;
-    border: 1px solid black;
-  }
-  
-  footer{
-    background-color: black;
-    color: white;
-    width: 100%;
-  }
-  
-  button{
-    background-color: black;
-    color: white;
-    font-family: serif;
-  }
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-family: serif;
+}
+
+footer{
+
+  position: fixed;
+  bottom: 0;
+
+}
